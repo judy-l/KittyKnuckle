@@ -32,13 +32,14 @@ const Layout = ({ children }) => {
           maxWidth: 960,
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
+          textAlign: `center`,
         }}
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, by
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+	  <img style={{ maxWidth: `2%`, marginBottom: `0rem` }} draggable="false" class="emoji" alt="☂" src="https://s.w.org/images/core/emoji/11/svg/2602.svg" />
         </footer>
       </div>
     </>
